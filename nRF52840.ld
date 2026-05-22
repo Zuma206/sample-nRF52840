@@ -1,4 +1,4 @@
-/* nRF52840.ld from github.com/zuma206/nRF52840 */
+/* nRF52840.ld from github.com/zuma206/sample-nRF52840 */
 
 MEMORY {
   /* RAM AHB slaves 0 to 7 are connected to two 4 kB RAM sections each,
