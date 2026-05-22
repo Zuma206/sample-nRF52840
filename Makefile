@@ -1,4 +1,4 @@
-# Makefile from github.com/zuma206/nRF52840
+# Makefile from github.com/zuma206/sample-nRF52840
 
 # Specific gcc platform specific version
 prefix := arm-none-eabi
