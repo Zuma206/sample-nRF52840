@@ -11,7 +11,7 @@ warnings = -Wall -Wextra
 # Remove standard library and glibc
 libraries = -nolibc -nostdlib
 # nRF52840 specific CPU information
-machine = -mcpu=cortex-m4 -mthumb
+machine = -mcpu=cortex-m4 -mthumb -T nRF52840.ld
 # Full set of c-compiler flags
 cflags = $(libraries) $(warnings) $(machine)
 # Get a list of all c source files
